@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Catalog</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230403212016">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__body">
+					<a href="" class="header__logo"><img src="img/logo.svg" alt="Logo"></a>
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="" class="menu__link">SHORTS</a></li>
+								<li class="menu__item"><a href="" class="menu__link">PANTS</a></li>
+								<li class="menu__item"><a href="" class="menu__link">SHIRTS</a></li>
+								<li class="menu__item"><a href="" class="menu__link">ACCESSORIES</a></li>
+								<li class="menu__item"><a href="" class="menu__link">SALE</a></li>
+							</ul>
+						</nav>
+						<form data-da=".header__search, 520" class="menu__search search-menu">
+							<button class="search-menu__button _icon-search"></button>
+							<input size="24" class="search-menu__input" type="text" name="search-header" id="search-header" placeholder="SEARCH ENTIRE STORE HERE">
+						</form>
+
+					</div>
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+				</div>
+				<div class="header__search"></div>
+			</div>
+		</header>
+		<main class="page page_inner">
+			<div class="page__header">
+				<div class="page__container">
+					<nav class="page__breadcrumbs breadcrumbs">
+						<ul class="breadcrumbs__list">
+							<li class="breadcrumbs__item"><a href="" class="breadcrumbs__link">HOME</a></li>
+							<li class="breadcrumbs__item"><span class="breadcrumbs__current">SHORTS</span></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="catalog">
+				<div class="catalog__container">
+					<div class="catalog__body">
+						<div class="catalog__filter filter-catalog">
+							<div class="filter-catalog__inner">
+								<div data-spollers class="filter-catalog__items">
+									<div class="filter-catalog__item">
+										<button type="button" data-spoller class="filter-catalog__title _spoller-active">SIZE</button>
+										<div class="filter-catalog__body">
+											<form action="#" class="filter-catalog__size size-filter">
+												<div class="size-filter__checkbox">
+													<input id="30" type="checkbox" name="30" class="size-filter__input">
+													<label for="30" class="size-filter__label">30</label>
+												</div>
+												<div class="size-filter__checkbox">
+													<input id="32" type="checkbox" name="32" class="size-filter__input">
+													<label for="32" class="size-filter__label">32</label>
+												</div>
+												<div class="size-filter__checkbox">
+													<input id="34" type="checkbox" name="34" class="size-filter__input">
+													<label for="34" class="size-filter__label">34</label>
+												</div>
+												<div class="size-filter__checkbox">
+													<input id="36" type="checkbox" name="36" class="size-filter__input">
+													<label for="36" class="size-filter__label">36</label>
+												</div>
+												<div class="size-filter__checkbox">
+													<input id="38" type="checkbox" name="38" class="size-filter__input">
+													<label for="38" class="size-filter__label">38</label>
+												</div>
+												<div class="size-filter__checkbox">
+													<input id="40" type="checkbox" name="40" class="size-filter__input">
+													<label for="40" class="size-filter__label">40</label>
+												</div>
+												<div class="size-filter__checkbox">
+													<input id="42" type="checkbox" name="42" class="size-filter__input">
+													<label for="42" class="size-filter__label">42</label>
+												</div>
+												<div class="size-filter__checkbox">
+													<input id="44" type="checkbox" name="44" class="size-filter__input">
+													<label for="44" class="size-filter__label">44</label>
+												</div>
+												<div class="size-filter__checkbox">
+													<input id="46" type="checkbox" name="46" class="size-filter__input">
+													<label for="46" class="size-filter__label">46</label>
+												</div>
+											</form>
+										</div>
+									</div>
+								</div>
+								<div data-spollers class="filter-catalog__items">
+									<div class="filter-catalog__item">
+										<button type="button" data-spoller class="filter-catalog__title _spoller-active">COLOR</button>
+										<div class="filter-catalog__body">
+											<form action="#" class="filter-catalog__color color-filter">
+												<div class="color-filter__checkbox">
+													<input id="black" type="checkbox" name="black" class="color-filter__input">
+													<label for="black" class="color-filter__label color-filter__label_black"></label>
+												</div>
+												<div class="color-filter__checkbox">
+													<input id="brown" type="checkbox" name="brown" class="color-filter__input">
+													<label for="brown" class="color-filter__label color-filter__label_brown"></label>
+												</div>
+												<div class="color-filter__checkbox">
+													<input id="blue" type="checkbox" name="blue" class="color-filter__input">
+													<label for="blue" class="color-filter__label color-filter__label_blue"></label>
+												</div>
+												<div class="color-filter__checkbox">
+													<input id="green" type="checkbox" name="green" class="color-filter__input">
+													<label for="green" class="color-filter__label color-filter__label_green"></label>
+												</div>
+												<div class="color-filter__checkbox">
+													<input id="grey" type="checkbox" name="grey" class="color-filter__input">
+													<label for="grey" class="color-filter__label color-filter__label_grey"></label>
+												</div>
+												<div class="color-filter__checkbox">
+													<input id="orange" type="checkbox" name="orange" class="color-filter__input">
+													<label for="orange" class="color-filter__label color-filter__label_orange"></label>
+												</div>
+												<div class="color-filter__checkbox">
+													<input id="white" type="checkbox" name="white" class="color-filter__input">
+													<label for="white" class="color-filter__label color-filter__label_white"></label>
+												</div>
+											</form>
+										</div>
+									</div>
+								</div>
+								<div data-spollers class="filter-catalog__items">
+									<div class="filter-catalog__item">
+										<button type="button" data-spoller class="filter-catalog__title">INSEAM</button>
+										<div class="filter-catalog__body">
+											<form action="#" class="filter-catalog__inseam inseam-filter">
+												<div class="inseam-filter__checkbox">
+													<input id="4.0" type="checkbox" name="4.0" class="inseam-filter__input">
+													<label for="4.0" class="inseam-filter__label">4.0 inch</label>
+												</div>
+												<div class="inseam-filter__checkbox">
+													<input id="5.0" type="checkbox" name="5.0" class="inseam-filter__input">
+													<label for="5.0" class="inseam-filter__label">5.0 inch</label>
+												</div>
+												<div class="inseam-filter__checkbox">
+													<input id="6.0" type="checkbox" name="6.0" class="inseam-filter__input">
+													<label for="6.0" class="inseam-filter__label">6.0 inch</label>
+												</div>
+												<div class="inseam-filter__checkbox">
+													<input id="7.5" type="checkbox" name="7.5" class="inseam-filter__input">
+													<label for="7.5" class="inseam-filter__label">7.5 inch</label>
+												</div>
+												<div class="inseam-filter__checkbox">
+													<input id="8.0" type="checkbox" name="8.0" class="inseam-filter__input">
+													<label for="8.0" class="inseam-filter__label">8.0 inch</label>
+												</div>
+												<div class="inseam-filter__checkbox">
+													<input id="8.5" type="checkbox" name="8.5" class="inseam-filter__input">
+													<label for="8.5" class="inseam-filter__label">8.5 inch</label>
+												</div>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="catalog__content">
+							<div class="catalog__products">
+								<div class="products__item _item-catalog">
+									<a href="" class="products__image">
+										<picture><source srcset="img/catalog/01.webp" type="image/webp"><img src="img/catalog/01.jpg" alt="Sportif's Original Short"></picture>
+									</a>
+									<div class="products__name">
+										<a href="" class="products__link _link-catalog">Sportif's Original Short</a>
+									</div>
+									<div class="products__rating rating rating_set">
+										<div class="rating__body">
+											<div class="rating__active"></div>
+											<div class="rating__items">
+												<input type="radio" class="rating__item" value="1" name="rating">
+												<input type="radio" class="rating__item" value="2" name="rating">
+												<input type="radio" class="rating__item" value="3" name="rating">
+												<input type="radio" class="rating__item" value="4" name="rating">
+												<input type="radio" class="rating__item" value="5" name="rating">
+											</div>
+										</div>
+										<div class="rating__value">5</div>
+									</div>
+									<div class="products__price">As low as <span>$67.00</span></div>
+									<button type="button" class="products__button _icon-cart"><span>ADD TO CART</span></button>
+								</div>
+								<div class="products__item _item-catalog">
+									<a href="" class="products__image">
+										<picture><source srcset="img/catalog/02.webp" type="image/webp"><img src="img/catalog/02.jpg" alt="Sportif's Hatteras Short"></picture>
+									</a>
+									<div class="products__name">
+										<a href="" class="products__link _link-catalog">Sportif's Hatteras Short</a>
+									</div>
+									<div class="products__rating rating rating_set">
+										<div class="rating__body">
+											<div class="rating__active"></div>
+											<div class="rating__items">
+												<input type="radio" class="rating__item" value="1" name="rating">
+												<input type="radio" class="rating__item" value="2" name="rating">
+												<input type="radio" class="rating__item" value="3" name="rating">
+												<input type="radio" class="rating__item" value="4" name="rating">
+												<input type="radio" class="rating__item" value="5" name="rating">
+											</div>
+										</div>
+										<div class="rating__value">5</div>
+									</div>
+									<div class="products__price">As low as <span>$54.99</span></div>
+									<button type="button" class="products__button _icon-cart"><span>ADD TO CART</span></button>
+								</div>
+								<div class="products__item _item-catalog">
+									<a href="" class="products__image">
+										<picture><source srcset="img/catalog/03.webp" type="image/webp"><img src="img/catalog/03.jpg" alt="Sportif's Tidewater Short"></picture>
+									</a>
+									<div class="products__name">
+										<a href="" class="products__link _link-catalog">Sportif's Tidewater Short</a>
+									</div>
+									<div class="products__rating rating rating_set">
+										<div class="rating__body">
+											<div class="rating__active"></div>
+											<div class="rating__items">
+												<input type="radio" class="rating__item" value="1" name="rating">
+												<input type="radio" class="rating__item" value="2" name="rating">
+												<input type="radio" class="rating__item" value="3" name="rating">
+												<input type="radio" class="rating__item" value="4" name="rating">
+												<input type="radio" class="rating__item" value="5" name="rating">
+											</div>
+										</div>
+										<div class="rating__value">5</div>
+									</div>
+									<div class="products__price">As low as <span>$54.99</span></div>
+									<button type="button" class="products__button _icon-cart"><span>ADD TO CART</span></button>
+								</div>
+								<div class="products__item _item-catalog">
+									<a href="" class="products__image">
+										<picture><source srcset="img/catalog/04.webp" type="image/webp"><img src="img/catalog/04.jpg" alt="Sportif's Lauderdale Short"></picture>
+									</a>
+									<div class="products__name">
+										<a href="" class="products__link _link-catalog">Sportif's Lauderdale Short</a>
+									</div>
+									<div class="products__rating rating rating_set">
+										<div class="rating__body">
+											<div class="rating__active"></div>
+											<div class="rating__items">
+												<input type="radio" class="rating__item" value="1" name="rating">
+												<input type="radio" class="rating__item" value="2" name="rating">
+												<input type="radio" class="rating__item" value="3" name="rating">
+												<input type="radio" class="rating__item" value="4" name="rating">
+												<input type="radio" class="rating__item" value="5" name="rating">
+											</div>
+										</div>
+										<div class="rating__value">5</div>
+									</div>
+									<div class="products__price">As low as <span>$67.00</span></div>
+									<button type="button" class="products__button _icon-cart"><span>ADD TO CART</span></button>
+								</div>
+								<div class="products__item _item-catalog">
+									<a href="" class="products__image">
+										<picture><source srcset="img/catalog/05.webp" type="image/webp"><img src="img/catalog/05.jpg" alt="Captain's Short"></picture>
+									</a>
+									<div class="products__name">
+										<a href="" class="products__link _link-catalog">Captain's Short</a>
+									</div>
+									<div class="products__rating rating rating_set">
+										<div class="rating__body">
+											<div class="rating__active"></div>
+											<div class="rating__items">
+												<input type="radio" class="rating__item" value="1" name="rating">
+												<input type="radio" class="rating__item" value="2" name="rating">
+												<input type="radio" class="rating__item" value="3" name="rating">
+												<input type="radio" class="rating__item" value="4" name="rating">
+												<input type="radio" class="rating__item" value="5" name="rating">
+											</div>
+										</div>
+										<div class="rating__value">5</div>
+									</div>
+									<div class="products__price">As low as <span>$67.00</span></div>
+									<button type="button" class="products__button _icon-cart"><span>ADD TO CART</span></button>
+								</div>
+								<div class="products__item _item-catalog">
+									<a href="" class="products__image">
+										<picture><source srcset="img/catalog/06.webp" type="image/webp"><img src="img/catalog/06.jpg" alt="Galapagos Plain Short"></picture>
+									</a>
+									<div class="products__name">
+										<a href="" class="products__link _link-catalog">Galapagos Plain Short</a>
+									</div>
+									<div class="products__rating rating rating_set">
+										<div class="rating__body">
+											<div class="rating__active"></div>
+											<div class="rating__items">
+												<input type="radio" class="rating__item" value="1" name="rating">
+												<input type="radio" class="rating__item" value="2" name="rating">
+												<input type="radio" class="rating__item" value="3" name="rating">
+												<input type="radio" class="rating__item" value="4" name="rating">
+												<input type="radio" class="rating__item" value="5" name="rating">
+											</div>
+										</div>
+										<div class="rating__value">5</div>
+									</div>
+									<div class="products__price">As low as <span>$34.99</span></div>
+									<button type="button" class="products__button _icon-cart"><span>ADD TO CART</span></button>
+								</div>
+								<div class="products__item _item-catalog">
+									<a href="" class="products__image">
+										<picture><source srcset="img/catalog/07.webp" type="image/webp"><img src="img/catalog/07.jpg" alt="Galapagos Pleated Short"></picture>
+									</a>
+									<div class="products__name">
+										<a href="" class="products__link _link-catalog">Galapagos Pleated Short</a>
+									</div>
+									<div class="products__rating rating rating_set">
+										<div class="rating__body">
+											<div class="rating__active"></div>
+											<div class="rating__items">
+												<input type="radio" class="rating__item" value="1" name="rating">
+												<input type="radio" class="rating__item" value="2" name="rating">
+												<input type="radio" class="rating__item" value="3" name="rating">
+												<input type="radio" class="rating__item" value="4" name="rating">
+												<input type="radio" class="rating__item" value="5" name="rating">
+											</div>
+										</div>
+										<div class="rating__value">5</div>
+									</div>
+									<div class="products__price">As low as <span>$34.99</span></div>
+									<button type="button" class="products__button _icon-cart"><span>ADD TO CART</span></button>
+								</div>
+								<div class="products__item _item-catalog">
+									<a href="" class="products__image">
+										<picture><source srcset="img/catalog/08.webp" type="image/webp"><img src="img/catalog/08.jpg" alt="Sportif's Tidewater Denim Cargo Short"></picture>
+									</a>
+									<div class="products__name">
+										<a href="" class="products__link _link-catalog">Sportif's Tidewater Denim Cargo Short</a>
+									</div>
+									<div class="products__rating rating rating_set">
+										<div class="rating__body">
+											<div class="rating__active"></div>
+											<div class="rating__items">
+												<input type="radio" class="rating__item" value="1" name="rating">
+												<input type="radio" class="rating__item" value="2" name="rating">
+												<input type="radio" class="rating__item" value="3" name="rating">
+												<input type="radio" class="rating__item" value="4" name="rating">
+												<input type="radio" class="rating__item" value="5" name="rating">
+											</div>
+										</div>
+										<div class="rating__value">5</div>
+									</div>
+									<div class="products__price">As low as <span>$69.00</span></div>
+									<button type="button" class="products__button _icon-cart"><span>ADD TO CART</span></button>
+								</div>
+								<div class="products__item _item-catalog">
+									<a href="" class="products__image">
+										<picture><source srcset="img/catalog/09.webp" type="image/webp"><img src="img/catalog/09.jpg" alt="Marchal's Hatteras Short"></picture>
+									</a>
+									<div class="products__name">
+										<a href="" class="products__link _link-catalog">Marchal's Hatteras Short</a>
+									</div>
+									<div class="products__rating rating rating_set">
+										<div class="rating__body">
+											<div class="rating__active"></div>
+											<div class="rating__items">
+												<input type="radio" class="rating__item" value="1" name="rating">
+												<input type="radio" class="rating__item" value="2" name="rating">
+												<input type="radio" class="rating__item" value="3" name="rating">
+												<input type="radio" class="rating__item" value="4" name="rating">
+												<input type="radio" class="rating__item" value="5" name="rating">
+											</div>
+										</div>
+										<div class="rating__value">5</div>
+									</div>
+									<div class="products__price">As low as <span>$40.99</span></div>
+									<button type="button" class="products__button _icon-cart"><span>ADD TO CART</span></button>
+								</div>
+								<div class="products__item _item-catalog">
+									<a href="" class="products__image">
+										<picture><source srcset="img/catalog/10.webp" type="image/webp"><img src="img/catalog/10.jpg" alt="Ecoths Ashcroft Short"></picture>
+									</a>
+									<div class="products__name">
+										<a href="" class="products__link _link-catalog">Ecoths Ashcroft Short</a>
+									</div>
+									<div class="products__rating rating rating_set">
+										<div class="rating__body">
+											<div class="rating__active"></div>
+											<div class="rating__items">
+												<input type="radio" class="rating__item" value="1" name="rating">
+												<input type="radio" class="rating__item" value="2" name="rating">
+												<input type="radio" class="rating__item" value="3" name="rating">
+												<input type="radio" class="rating__item" value="4" name="rating">
+												<input type="radio" class="rating__item" value="5" name="rating">
+											</div>
+										</div>
+										<div class="rating__value">5</div>
+									</div>
+									<div class="products__price">As low as <span>$41.99</span></div>
+									<button type="button" class="products__button _icon-cart"><span>ADD TO CART</span></button>
+								</div>
+								<div class="products__item _item-catalog">
+									<a href="" class="products__image">
+										<picture><source srcset="img/catalog/11.webp" type="image/webp"><img src="img/catalog/11.jpg" alt="Ecoths Gannon Short"></picture>
+									</a>
+									<div class="products__name">
+										<a href="" class="products__link _link-catalog">Ecoths Gannon Short</a>
+									</div>
+									<div class="products__rating rating rating_set">
+										<div class="rating__body">
+											<div class="rating__active"></div>
+											<div class="rating__items">
+												<input type="radio" class="rating__item" value="1" name="rating">
+												<input type="radio" class="rating__item" value="2" name="rating">
+												<input type="radio" class="rating__item" value="3" name="rating">
+												<input type="radio" class="rating__item" value="4" name="rating">
+												<input type="radio" class="rating__item" value="5" name="rating">
+											</div>
+										</div>
+										<div class="rating__value">5</div>
+									</div>
+									<div class="products__price">As low as <span>$42.99</span></div>
+									<button type="button" class="products__button _icon-cart"><span>ADD TO CART</span></button>
+								</div>
+							</div>
+							<div class="catalog__footer">
+								<div class="catalog__pagging pagging">
+									<button disabled type="button" class="pagging__arrow pagging__arrow_left _icon-spoller"></button>
+									<ul class="pagging__list">
+										<li class="pagging__item"><a href="" class="pagging__link _active">1</a></li>
+										<li class="pagging__item"><a href="" class="pagging__link">2</a></li>
+									</ul>
+									<button type="button" class="pagging__arrow pagging__arrow_right _icon-spoller"></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__inner">
+				<div class="footer__container">
+					<div class="footer__columns columns-footer">
+						<div class="columns-footer__column column-footer">
+							<div data-spollers="479.98" class="column-footer__spollers spollers-column-footer">
+								<div class="spollers-column-footer__item">
+									<button type="button" data-spoller class="spollers-column-footer__title">ORDERING ONLINE</button>
+									<div class="spollers-column-footer__body">
+										<ul class="column-footer__links">
+											<li><a href="" class="column-footer__link">Account Login</a></li>
+											<li><a href="" class="column-footer__link">Our Guarantee</a></li>
+											<li><a href="" class="column-footer__link">Sportif Stretch Guide</a></li>
+											<li><a href="" class="column-footer__link">Size Chart & Sizing Information</a></li>
+											<li><a href="" class="column-footer__link">Hemming Information</a></li>
+											<li><a href="" class="column-footer__link">Ordering & Payment</a></li>
+											<li><a href="" class="column-footer__link">Shipping Information</a></li>
+											<li><a href="" class="column-footer__link">Returns</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="columns-footer__column column-footer">
+							<div data-spollers="479.98" class="column-footer__spollers spollers-column-footer">
+								<div class="spollers-column-footer__item">
+									<button type="button" data-spoller class="spollers-column-footer__title">ABOUT SPORTIF</button>
+									<div class="spollers-column-footer__body">
+										<ul class="column-footer__links">
+											<li><a href="" class="column-footer__link">COVID-19 Response</a></li>
+											<li><a href="" class="column-footer__link">History</a></li>
+											<li><a href="" class="column-footer__link">Legacy</a></li>
+											<li><a href="" class="column-footer__link">Good Sam Program</a></li>
+											<li><a href="" class="column-footer__link">Privacy & Security</a></li>
+											<li><a href="" class="column-footer__link">Terms & Conditions</a></li>
+											<li><a href="" class="column-footer__link">Careers</a></li>
+											<li><a href="" class="column-footer__link"></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="columns-footer__column column-footer">
+							<div data-spollers="479.98" class="column-footer__spollers spollers-column-footer">
+								<div class="spollers-column-footer__item">
+									<button type="button" data-spoller class="spollers-column-footer__title">QUICK LINKS</button>
+									<div class="spollers-column-footer__body">
+										<ul class="column-footer__links">
+											<li><a href="" class="column-footer__link">FAQs</a></li>
+											<li><a href="" class="column-footer__link">Shop Online Catalog</a></li>
+											<li><a href="" class="column-footer__link">Contact Us</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="footer__subscribe subscribe">
+						<h5 class="subscribe__title spollers-column-footer__title">GET TO KNOW US</h5>
+						<p class="subscribe__text column-footer__link">Sign up for our weekly newsletter and get a 10% off coupon by email for your first order!</p>
+						<form action="#" class="subscribe__form">
+							<label class="subscribe__label column-footer__link _text-2">Sign Up for Our Newsletter:</label>
+							<div class="subscribe__line">
+								<input id="subscribe-input" autocomplete="off" type="text" name="form[]" data-error="incorrect format" data-required="email" placeholder="EMAIL ADDRESS" class="subscribe__input">
+								<button type="submit" class="subscribe__button">SUBSCRIBE</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="footer__copy">
+				<div class="footer__container">
+					<p>©2021 Sportif Mailorder. All Rights Reserved.</p>
+				</div>
+			</div>
+		</footer>
+
+
+
+
+
+
+	</div>
+	<script src="js/app.min.js?_v=20230403212016"></script>
+	<script>
+	</script>
+</body>
+
+</html>
